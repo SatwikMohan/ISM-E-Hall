@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "440383484482",
+    "project_id": "e-lib-2c1ac",
+    "storage_bucket": "e-lib-2c1ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:440383484482:android:774016733f1d79947933db",
+        "android_client_info": {
+          "package_name": "com.gigawattstechnology.e_lib"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "440383484482-44f79s3rbb6cn56678fg5qj6tqsfotdb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmvgARBWdGbd0S4IHxO0HCrDVmG_v8aHA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "440383484482-44f79s3rbb6cn56678fg5qj6tqsfotdb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

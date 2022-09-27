@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">E-HALL2</string>
+    <string name="ek_img_content">ExportKit Image</string>
+    <string name="caption_string">-No account yet? Click here-</string>
+    <string name="title_string">Lets get started!</string>
+    <string name="subtitle_string">Login to access your PDFs.</string>
+    <string name="placeholder_text_string">Email</string>
+    <string name="placeholder_text_ek1_string">Password</string>
+    <string name="label_string">Keep me logged in</string>
+    <string name="label_ek1_string">LOGIN</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Rate And Like</string>
+
+    <string name="menu_home">Links Around Me</string>
+    <string name="menu_gallery">1st Year</string>
+    <string name="menu_slideshow">2nd Year</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

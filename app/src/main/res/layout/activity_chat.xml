@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    tools:context=".chat">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#03A9F4">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chatrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="630dp" />
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="340dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="#FBE1E1"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Type a message here"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:src="@android:drawable/ic_menu_send"
+        tools:ignore="SpeakableTextPresentCheck" />
+</RelativeLayout>
+</ScrollView>
